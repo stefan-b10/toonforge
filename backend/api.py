@@ -2,7 +2,7 @@ from flask import Flask, jsonify, request, abort
 
 app = Flask(__name__)
 
-def kickoff_crew()
+# def kickoff_crew()
 
 @app.route('/api/crew', methods=['POST'])
 def run_crew():
