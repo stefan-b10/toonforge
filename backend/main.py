@@ -5,7 +5,7 @@ from langchain_community.llms import HuggingFaceEndpoint
 
 llm = HuggingFaceEndpoint(
     endpoint_url="HuggingFaceH4/zephyr-7b-beta",
-    huggingfacehub_api_token="",
+    huggingfacehub_api_token="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",
     task="text-generation",
     max_new_tokens=512
 )
